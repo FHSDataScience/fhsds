@@ -2,11 +2,15 @@
 
 ## Welcome to GitHub Pages
 
-```python3
-#Here is some test python code
-for i in range(50):
-  print("Test")
-```
+{% highlight python %}
+#Here is some python syntax highlighted code
+def doSomething(text:str)->null:
+  print(text)
+for i in range(0, 50):
+  doSomething(str(i));
+print("Finished")
+{% endhighlight %}
+
 
 - Test 1
 - Test 2
